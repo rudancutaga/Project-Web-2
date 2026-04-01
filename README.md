@@ -25,10 +25,11 @@ Setup:
 
 ```bash
 cd project-frontend
-cp .env.example .env
 npm install
 npm run dev
 ```
+
+Create `project-frontend/.env` manually with the values below before starting the app.
 
 Default frontend env:
 
@@ -45,12 +46,13 @@ Setup:
 
 ```bash
 cd project-backend
-cp .env.example .env
 npm install
 npm run migrate
 npm run seed
 npm start
 ```
+
+Create `project-backend/.env` manually with the values below before starting the server.
 
 Important backend env values:
 
